@@ -1,6 +1,6 @@
-import anime from "animejs/lib/anime.es.js";
 import { type NextPage } from "next";
 import { useEffect, useState } from "react";
+import anime from "../../node_modules/animejs/lib/anime.es.js";
 
 const Home: NextPage = () => {
   return (
