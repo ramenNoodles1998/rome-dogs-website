@@ -44,7 +44,7 @@ const Block = () => {
       <div
         key={i}
         onClick={() => animateBlock(i)}
-        className="m-2 h-28 w-28 rounded bg-red-400"
+        className="m-2 h-28 w-28 rounded bg-red-400 block"
       ></div>
     );
   }
